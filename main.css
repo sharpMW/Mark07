@@ -9,7 +9,7 @@ body {
     margin: auto;
     min-height: 100vh;
     font-size: 1.5rem;
-    background-image: url('pirate-01.jpg');
+    background-image: linear-gradient(180deg, rgba(131, 130, 130, 0.226), rgb(0, 0, 0)), url('pirate-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -46,7 +46,7 @@ textarea {
     display: block;
     margin: auto;
     padding: 1rem;
-    opacity: 0.5;
+    opacity: 0.3;
     color: black;
  } 
  section { 
@@ -62,8 +62,8 @@ textarea {
      font-size: 1.5rem;
      margin: auto;
      padding: 1rem;
-     color: white;
-     opacity: 0.5;
+     color: black;
+     opacity: 0.3;
      background-color: white;
  }
 #btn-translate { 
@@ -95,12 +95,4 @@ textarea {
     .footer p { 
         padding: 0;
     }
-    h1 { 
-        font-size: 4rem;
-    }
 }
-/* @media screen and (max-width: 600px) {
-    h1 { 
-        font-size: 1rem;
-    }
-} */
