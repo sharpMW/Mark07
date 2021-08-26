@@ -96,3 +96,17 @@ textarea {
         padding: 0;
     }
 }
+@media screen and (max-width: 500px) {
+   body { 
+       font-weight: 500;
+   }
+    h1.head { 
+       font-weight: 500;
+        font-size: 3rem;
+    }
+    .footer { 
+        box-shadow: 0px 0px 0px;
+        background-color: transparent;
+    }
+
+}
