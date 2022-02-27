@@ -1,0 +1,15 @@
+{
+	"name": "Pirate Translator",
+	"short_name": "pirateMW",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "Translation Application",
+	"icons": [
+		{
+			"src": "images/sword.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
