@@ -3,13 +3,14 @@ const staticAssets = [
 	"./",
 	"./index.html",
 	"./main.css",
-	"./manifest.webmanifest",
+	"./manifest.json",
 	"./app.js",
 ];
 
 self.addEventListener("install", async (e) => {
 	const cache = await caches.open(cacheName);
 	await cache.addAll(staticAssets);
+	console.log("install block running");
 	return self.skipWaiting(); //asks service worker to move into the activate phase.
 });
 

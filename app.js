@@ -1,3 +1,18 @@
+window.addEventListener("load", () => {
+	registerSW();
+});
+
+const registerSW = async () => {
+	// this line checks wether the browser supports serviceWorker or not.
+	if ("serviceWorker" in navigator) {
+		try {
+			await navigator.serviceWorker.register("./sw.js");
+            console.log("Registered");
+		} catch (e) {
+			console.log(`SW registration failed`);
+		}
+	}
+};
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
